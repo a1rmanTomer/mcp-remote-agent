@@ -22,20 +22,24 @@ This MCP server exposes four powerful tools to your AI assistant:
 ## ⚙️ Setup & Installation
 
 **1. Clone the repository:**
-\`\`\`bash
+
+```bash
 git clone https://github.com/yourusername/remote-omni-agent-mcp.git
 cd remote-omni-agent-mcp
-\`\`\`
+```
 
 **2. Install dependencies:**
-\`\`\`bash
+
+```bash
 npm install
-\`\`\`
+```
 
 **3. Build the TypeScript code:**
-\`\`\`bash
+
+```bash
 npx tsc
-\`\`\`
+```
+
 _(This will compile the code into the `dist/` directory)._
 
 ---
@@ -65,9 +69,9 @@ SSH_PRIVATE_KEY_PATH=~/.ssh/id_ed25519
 
 You can test the tools manually using the official MCP Inspector before connecting it to your AI:
 
-\`\`\`bash
+```bash
 npx @modelcontextprotocol/inspector node dist/index.js
-\`\`\`
+```
 
 - Click the generated local URL (e.g., `http://localhost:5173`).
 - Click **Connect**.
@@ -90,7 +94,8 @@ npx @modelcontextprotocol/inspector node dist/index.js
 ### Claude Desktop
 
 Edit your `claude_desktop_config.json` file:
-\`\`\`json
+
+````json
 {
 "mcpServers": {
 "Remote-Omni-Agent": {
@@ -99,7 +104,7 @@ Edit your `claude_desktop_config.json` file:
 }
 }
 }
-\`\`\`
+\\\
 
 ### Windsurf IDE
 
@@ -121,7 +126,7 @@ Add the following to your `settings.json`:
     "args": ["/absolute/path/to/your/project/dist/index.js"]
   }
 }
-```
+````
 
 ## 🔒 Security & Architecture Notes
 
