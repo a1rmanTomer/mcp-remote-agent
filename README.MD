@@ -24,7 +24,7 @@ This MCP server exposes four powerful tools to your AI assistant:
 **1. Clone the repository:**
 
 ```bash
-git clone https://github.com/yourusername/remote-omni-agent-mcp.git
+git clone https://github.com/a1rmanTomer/mcp-remote-agent
 cd remote-omni-agent-mcp
 ```
 
@@ -88,23 +88,23 @@ npx @modelcontextprotocol/inspector node dist/index.js
 3. **Name:** `Remote-Omni-Agent` (or whatever you prefer)
 4. **Type:** `command`
 5. **Command:** `node`
-6. **Args:** `/absolute/path/to/your/project/dist/index.js` _(Crucial: Use the absolute path to the `dist/index.js` file)_
+6. **Args:** `/absolute/path/to/this/project/dist/index.js` _(Crucial: Use the absolute path to the `dist/index.js` file)_
 7. Save and ensure the status indicator turns green.
 
 ### Claude Desktop
 
 Edit your `claude_desktop_config.json` file:
 
-````json
+```json
 {
-"mcpServers": {
-"Remote-Omni-Agent": {
-"command": "node",
-"args": ["/absolute/path/to/your/project/dist/index.js"]
+  "mcpServers": {
+    "Remote-Omni-Agent": {
+      "command": "node",
+      "args": ["/absolute/path/to/this/project/dist/index.js"]
+    }
+  }
 }
-}
-}
-\\\
+```
 
 ### Windsurf IDE
 
@@ -113,7 +113,7 @@ Edit your `claude_desktop_config.json` file:
 3. Add a new server with:
    - **Name:** `Remote-Omni-Agent`
    - **Command:** `node`
-   - **Args:** `/absolute/path/to/your/project/dist/index.js`
+   - **Args:** `/absolute/path/to/this/project/dist/index.js`
 
 ### Zed Editor
 
@@ -123,10 +123,10 @@ Add the following to your `settings.json`:
 "mcp_servers": {
   "Remote-Omni-Agent": {
     "command": "node",
-    "args": ["/absolute/path/to/your/project/dist/index.js"]
+    "args": ["/absolute/path/to/this/project/dist/index.js"]
   }
 }
-````
+```
 
 ## 🔒 Security & Architecture Notes
 
