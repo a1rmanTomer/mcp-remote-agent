@@ -1,0 +1,33 @@
+{
+  "name": "mcp-remote-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "homepage": "https://github.com/a1rmanTomer/mcp-remote-agent#readme",
+  "bugs": {
+    "url": "https://github.com/a1rmanTomer/mcp-remote-agent/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1rmanTomer/mcp-remote-agent.git"
+  },
+  "license": "ISC",
+  "author": "Tomer Dan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "pg": "^8.21.0",
+    "ssh2": "^1.17.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3",
+    "@types/pg": "^8.20.0",
+    "@types/ssh2": "^1.15.5",
+    "typescript": "^6.0.3"
+  }
+}
