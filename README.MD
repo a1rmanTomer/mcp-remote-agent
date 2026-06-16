@@ -28,6 +28,15 @@ git clone https://github.com/a1rmanTomer/mcp-remote-agent
 cd remote-omni-agent-mcp
 ```
 
+## 📋 Prerequisites
+
+Before you begin, ensure you have the following installed on your local machine:
+
+- **Node.js:** Version 20.0.0 or higher is required. [Download here](https://nodejs.org/).
+- **npm:** Typically comes with Node.js. Check your version with `npm -v`.
+- **Git:** To clone the repository.
+- **SSH Access:** Ensure you have SSH access to your remote server (verify with `ssh your_user@your_host`).
+
 **2. Install dependencies:**
 
 ```bash
