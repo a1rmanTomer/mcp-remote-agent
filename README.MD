@@ -1,4 +1,4 @@
-# 🚀 Remote Server Omni-Agent (MCP Server)
+# 🚀 Production Server Omni-Agent (MCP Server)
 
 An AI-powered **Model Context Protocol (MCP)** server that securely connects to your remote Linux infrastructure via SSH. It empowers AI assistants (like Claude, Cursor, etc.) to act as remote sysadmins—monitoring health, managing Docker containers, and retrieving system telemetry in real-time.
 
